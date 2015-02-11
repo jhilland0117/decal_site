@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2169FCB31998204600011287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2169FCB21998204600011287 /* Foundation.framework */; };
+		2169FCB51998204600011287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2169FCB41998204600011287 /* CoreGraphics.framework */; };
+		2169FCB71998204600011287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2169FCB61998204600011287 /* UIKit.framework */; };
+		2169FCBD1998204600011287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2169FCBB1998204600011287 /* InfoPlist.strings */; };
+		2169FCBF1998204600011287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2169FCBE1998204600011287 /* main.m */; };
+		2169FCC31998204600011287 /* NumberConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2169FCC21998204600011287 /* NumberConverterAppDelegate.m */; };
+		2169FCC61998204600011287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2169FCC41998204600011287 /* Main.storyboard */; };
+		2169FCC91998204600011287 /* NumberConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2169FCC81998204600011287 /* NumberConverterViewController.m */; };
+		2169FCCB1998204600011287 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2169FCCA1998204600011287 /* Images.xcassets */; };
+		2169FCD21998204600011287 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2169FCD11998204600011287 /* XCTest.framework */; };
+		2169FCD31998204600011287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2169FCB21998204600011287 /* Foundation.framework */; };
+		2169FCD41998204600011287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2169FCB61998204600011287 /* UIKit.framework */; };
+		2169FCDC1998204600011287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2169FCDA1998204600011287 /* InfoPlist.strings */; };
+		2169FCDE1998204600011287 /* NumberConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2169FCDD1998204600011287 /* NumberConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2169FCD51998204600011287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2169FCA71998204600011287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2169FCAE1998204600011287;
+			remoteInfo = NumberConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2169FCAF1998204600011287 /* NumberConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2169FCB21998204600011287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2169FCB41998204600011287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2169FCB61998204600011287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2169FCBA1998204600011287 /* NumberConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberConverter-Info.plist"; sourceTree = "<group>"; };
+		2169FCBC1998204600011287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2169FCBE1998204600011287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2169FCC01998204600011287 /* NumberConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberConverter-Prefix.pch"; sourceTree = "<group>"; };
+		2169FCC11998204600011287 /* NumberConverterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberConverterAppDelegate.h; sourceTree = "<group>"; };
+		2169FCC21998204600011287 /* NumberConverterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberConverterAppDelegate.m; sourceTree = "<group>"; };
+		2169FCC51998204600011287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2169FCC71998204600011287 /* NumberConverterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberConverterViewController.h; sourceTree = "<group>"; };
+		2169FCC81998204600011287 /* NumberConverterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberConverterViewController.m; sourceTree = "<group>"; };
+		2169FCCA1998204600011287 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2169FCD01998204600011287 /* NumberConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2169FCD11998204600011287 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2169FCD91998204600011287 /* NumberConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberConverterTests-Info.plist"; sourceTree = "<group>"; };
+		2169FCDB1998204600011287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2169FCDD1998204600011287 /* NumberConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2169FCAC1998204600011287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169FCB51998204600011287 /* CoreGraphics.framework in Frameworks */,
+				2169FCB71998204600011287 /* UIKit.framework in Frameworks */,
+				2169FCB31998204600011287 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2169FCCD1998204600011287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169FCD21998204600011287 /* XCTest.framework in Frameworks */,
+				2169FCD41998204600011287 /* UIKit.framework in Frameworks */,
+				2169FCD31998204600011287 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2169FCA61998204600011287 = {
+			isa = PBXGroup;
+			children = (
+				2169FCB81998204600011287 /* NumberConverter */,
+				2169FCD71998204600011287 /* NumberConverterTests */,
+				2169FCB11998204600011287 /* Frameworks */,
+				2169FCB01998204600011287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2169FCB01998204600011287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2169FCAF1998204600011287 /* NumberConverter.app */,
+				2169FCD01998204600011287 /* NumberConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2169FCB11998204600011287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2169FCB21998204600011287 /* Foundation.framework */,
+				2169FCB41998204600011287 /* CoreGraphics.framework */,
+				2169FCB61998204600011287 /* UIKit.framework */,
+				2169FCD11998204600011287 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2169FCB81998204600011287 /* NumberConverter */ = {
+			isa = PBXGroup;
+			children = (
+				2169FCC11998204600011287 /* NumberConverterAppDelegate.h */,
+				2169FCC21998204600011287 /* NumberConverterAppDelegate.m */,
+				2169FCC41998204600011287 /* Main.storyboard */,
+				2169FCC71998204600011287 /* NumberConverterViewController.h */,
+				2169FCC81998204600011287 /* NumberConverterViewController.m */,
+				2169FCCA1998204600011287 /* Images.xcassets */,
+				2169FCB91998204600011287 /* Supporting Files */,
+			);
+			path = NumberConverter;
+			sourceTree = "<group>";
+		};
+		2169FCB91998204600011287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2169FCBA1998204600011287 /* NumberConverter-Info.plist */,
+				2169FCBB1998204600011287 /* InfoPlist.strings */,
+				2169FCBE1998204600011287 /* main.m */,
+				2169FCC01998204600011287 /* NumberConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2169FCD71998204600011287 /* NumberConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2169FCDD1998204600011287 /* NumberConverterTests.m */,
+				2169FCD81998204600011287 /* Supporting Files */,
+			);
+			path = NumberConverterTests;
+			sourceTree = "<group>";
+		};
+		2169FCD81998204600011287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2169FCD91998204600011287 /* NumberConverterTests-Info.plist */,
+				2169FCDA1998204600011287 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2169FCAE1998204600011287 /* NumberConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2169FCE11998204600011287 /* Build configuration list for PBXNativeTarget "NumberConverter" */;
+			buildPhases = (
+				2169FCAB1998204600011287 /* Sources */,
+				2169FCAC1998204600011287 /* Frameworks */,
+				2169FCAD1998204600011287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberConverter;
+			productName = NumberConverter;
+			productReference = 2169FCAF1998204600011287 /* NumberConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2169FCCF1998204600011287 /* NumberConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2169FCE41998204600011287 /* Build configuration list for PBXNativeTarget "NumberConverterTests" */;
+			buildPhases = (
+				2169FCCC1998204600011287 /* Sources */,
+				2169FCCD1998204600011287 /* Frameworks */,
+				2169FCCE1998204600011287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2169FCD61998204600011287 /* PBXTargetDependency */,
+			);
+			name = NumberConverterTests;
+			productName = NumberConverterTests;
+			productReference = 2169FCD01998204600011287 /* NumberConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2169FCA71998204600011287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NumberConverter;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Effect;
+				TargetAttributes = {
+					2169FCCF1998204600011287 = {
+						TestTargetID = 2169FCAE1998204600011287;
+					};
+				};
+			};
+			buildConfigurationList = 2169FCAA1998204600011287 /* Build configuration list for PBXProject "NumberConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2169FCA61998204600011287;
+			productRefGroup = 2169FCB01998204600011287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2169FCAE1998204600011287 /* NumberConverter */,
+				2169FCCF1998204600011287 /* NumberConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2169FCAD1998204600011287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169FCCB1998204600011287 /* Images.xcassets in Resources */,
+				2169FCBD1998204600011287 /* InfoPlist.strings in Resources */,
+				2169FCC61998204600011287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2169FCCE1998204600011287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169FCDC1998204600011287 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2169FCAB1998204600011287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169FCC31998204600011287 /* NumberConverterAppDelegate.m in Sources */,
+				2169FCC91998204600011287 /* NumberConverterViewController.m in Sources */,
+				2169FCBF1998204600011287 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2169FCCC1998204600011287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169FCDE1998204600011287 /* NumberConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2169FCD61998204600011287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2169FCAE1998204600011287 /* NumberConverter */;
+			targetProxy = 2169FCD51998204600011287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2169FCBB1998204600011287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2169FCBC1998204600011287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2169FCC41998204600011287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2169FCC51998204600011287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2169FCDA1998204600011287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2169FCDB1998204600011287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2169FCDF1998204600011287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2169FCE01998204600011287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2169FCE21998204600011287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverter/NumberConverter-Prefix.pch";
+				INFOPLIST_FILE = "NumberConverter/NumberConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2169FCE31998204600011287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverter/NumberConverter-Prefix.pch";
+				INFOPLIST_FILE = "NumberConverter/NumberConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2169FCE51998204600011287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NumberConverter.app/NumberConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverter/NumberConverter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NumberConverterTests/NumberConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2169FCE61998204600011287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NumberConverter.app/NumberConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverter/NumberConverter-Prefix.pch";
+				INFOPLIST_FILE = "NumberConverterTests/NumberConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2169FCAA1998204600011287 /* Build configuration list for PBXProject "NumberConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2169FCDF1998204600011287 /* Debug */,
+				2169FCE01998204600011287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2169FCE11998204600011287 /* Build configuration list for PBXNativeTarget "NumberConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2169FCE21998204600011287 /* Debug */,
+				2169FCE31998204600011287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2169FCE41998204600011287 /* Build configuration list for PBXNativeTarget "NumberConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2169FCE51998204600011287 /* Debug */,
+				2169FCE61998204600011287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2169FCA71998204600011287 /* Project object */;
+}
